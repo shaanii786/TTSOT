@@ -1,0 +1,194 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTSOT</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <!--Bootstrap CSS Cdn-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  
+<!--Google Font CDN-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+<!--icon link-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+
+
+<!--Scrolling animation-->
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<!--Java Script Part-->
+        
+</head>
+<body  >
+
+  <!--Nav Bar-->
+  <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-info "> <img src="image/logo.png" class="nav_image"  >
+      
+         <button class="navbar-toggler btn btn-info " type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+        </button>
+      
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="About Us.html">About Us</a>
+            </li>
+           
+            <li class="nav-item">
+                <a class="nav-link text-light" href="Services.html">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="cotactus.html">Contact Us</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link text-light " class="" href="Booking.html">Booking</a>
+          </li>
+         
+        
+            
+           
+         </ul>
+          <form class="form-inline my-2 my-lg-0 px-2">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    </div>
+    <div class="container bg-info text-light py-2">
+        <div class="jumbotron bg-info">
+          <h1>Book Your Travelling</h1>      
+          <p>Pakistan Is a Beautiful Country having Mny Beautiful places to travel</p>
+        </div>
+         
+      </div>
+    <div class="container mt-5">
+        <h2 class="text-center mb-4">Please Provide All The Details</h2>
+        <form class="p-4 border rounded bg-info text-light">
+            <!-- Personal Details -->
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label class="form-label">Full Name</label>
+                    <input type="text" class="form-control" placeholder="Enter your name" required>
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Contact Number</label>
+                    <input type="tel" class="form-control" placeholder="Enter your phone number" required>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <label class="form-label">Country</label>
+                    <input type="text" class="form-control" placeholder="Enter your country" required>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label">City</label>
+                    <input type="text" class="form-control" placeholder="Enter your city" required>
+                </div>
+                <div class="col-md-4">
+                    <label class="form-label">Address</label>
+                    <input type="text" class="form-control" placeholder="Enter your address" required>
+                </div>
+            </div>
+
+            <!-- Travel Details -->
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label class="form-label">Choose Places for Travel</label>
+                    <select class="form-select" multiple required>
+                        <option value="lahore">Lahore</option>
+                        <option value="karachi">Karachi</option>
+                        <option value="islamabad">Islamabad</option>
+                        <option value="gilgit">Gilgit Baltistan</option>
+                        <option value="skardu">Skardu</option>
+                        <option value="faisalabad">Faisalabad</option>
+                    </select>
+                   
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Select Vehicle</label>
+                    <select class="form-select" required>
+                        <option value="car">Car</option>
+                        <option value="coach">Coach</option>
+                        <option value="bus">Bus</option>
+                        <option value="jeep">Jeep</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Airport & Hotel Details -->
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label class="form-label">Airport of Arrival</label>
+                    <select class="form-select" required>
+                        <option value="lahore_airport">Lahore Airport</option>
+                        <option value="islamabad_airport">Islamabad Airport</option>
+                        <option value="faisalabad_airport">Faisalabad Airport</option>
+                        <option value="sialkot_airport">Sialkot Airport</option>
+                        <option value="noorkhan_airbase">Noor Khan Airbase</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6">
+                    <label class="form-label">Hotel Required?</label>
+                    <select class="form-select" id="hotelRequired" onchange="selectedhotelroom()" required>
+                        <option value="no">No</option>
+                        <option value="yes">Yes</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Hotel Rooms Selection (Hidden Initially) -->
+            <div class="row mb-3" id="hotelRoomsSection" style="display: none;">
+                <div class="col-md-6">
+                    <label class="form-label">Number of Rooms</label>
+                    <input type="number" class="form-control" min="1" max="10" placeholder="Enter number of rooms">
+                </div>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="text-center">
+                <button type="submit" class="btn btn-danger">Submit Booking</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        function selectedhotelroom() {
+            let hotelSelect = document.getElementById("hotelRequired");
+            let hotelRoomsSection = document.getElementById("hotelRoomsSection");
+            if (hotelSelect.value === "yes") {
+                hotelRoomsSection.style.display = "block";
+            } else {
+                hotelRoomsSection.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+
+</html>
